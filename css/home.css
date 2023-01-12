@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* section1 */
+
+body{
+    padding-right: 0px !important;
+}
+
+.main{
+    background: url(../image/tes3.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+
+.kata h4{
+    color: #5572fe;
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.kata h1{
+    color: #fac031;
+    font-size: 340%;
+}
+
+.kata p{
+    color: white;
+}
+
+
+/* .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #5572fe;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color: #4169E1;
+} */
+
+/* @media screen and (max-width:343px) {
+    .kata{
+        padding-top: 0;
+    }
+} */
+
+/* Section end */
+
+/* welcome */
+.welcome{
+    background: #5572fe;
+}
+
+.line2{
+    height: 6px;
+    width: 50%;
+    background-color: #fac031;
+    display: inline-block;
+}
+
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome .card:hover{
+    background-color: #fac031;
+    color: white;
+}
+
+.welcome .card:hover .per1{
+    color: white;
+}
+
+.welcome i{
+    font-size: 45px;
+}
+
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1{
+    color: rgb(168, 162, 162);
+}
+
+/* welcome end */
+
+/* produk */
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.product p:nth-child(2){
+    font-size: 18px;
+    color: grey;
+}
+
+.star{
+    text-align: end;
+    color: orange;
+}
+
+.product .card{
+    border: none;
+    border-radius: 0;
+}
+
+.product .card-body{
+    border: 0.1px dotted rgb(190, 185, 185);
+}
+
+.product .card-body:hover img{
+    transform: scale(1.1);
+}
+
+.product .card-body:hover .star{
+    transform: translateY(-10px);
+}
+
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: #5572fe;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s ;
+}
+
+.btnc:hover{
+    outline: none;
+    border: 1px solid #4169E1;
+    color: #4169E1;
+    background: transparent;
+    border-radius: 50px;
+}
+/* Produk end */
+
+
+
+/* about */
+.line{
+    height: 6px;
+    width: 30%;
+    background: #5572fe;
+    display: inline-block;
+}
+
+.about{
+    background: url(../image/bingungop2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 500;
+    /* color: grey; */
+}
+
+.mbtn1{
+    height: 50px;
+    width: 30%;
+    outline: none;
+    border: none;
+    color: white;
+    background: #fac031;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover{
+    background-color: #dfa106;
+}
+/* about end */
+
+
+/* testi */
+.testimonial-section{
+    background-color: #5572fe;
+}
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 8rem 2rem;
+    /* padding: 10rem 3.125rem; */
+    background-color: white;
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+
+
+@media (max-width:768px) {
+    .testimonial-section .carousel-item{
+        padding: 9rem 2rem;
+    
+    }
+}
+
+@media (max-width:369px) {
+    .testimonial-section .carousel-item{
+        padding: 10rem 2rem;
+    
+    }
+}
+
+.testimonial-section .judulT h2{
+    color: white;
+}
+
+.content p{
+    color: #6f3b80;
+    width: 60%;
+    /* padding-top: 30px; */
+    margin: auto;
+}
+
+.content h5{
+    margin-top: 5px;
+}
+
+.person{
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fac031;
+    margin-bottom: 20px;
+}
+
+.person img{
+    width: 100%;
+}
+
+/* .testimonial-section .carousel-caption img{
+max-width: 5rem;
+border-radius: 50%;
+}
+
+.testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+}
+
+.testimonial-section .carousel-indicators{
+    bottom: -2.8125rem;
+}
+
+.testimonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+
+.testimonial-section .carousel-indicators button.active{
+    opacity: 1;
+} */
+
+
+/* tim */
+
+.tim{
+    background-image: url(../image/bg1.jpg);
+    background-size: cover;
+}
+.tim .card{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+    border: 4px solid #fac031;
+}
+
+.line3{
+    height: 6px;
+    width: 20%;
+    background: #5572fe;
+    display: inline-block;
+}
+
+/* .tim .card-body{
+    width: 350px;
+    height: 535px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0 8px;
+} */
+
+
+
+.tim .card-body:hover h4{
+    transform: translateY(-60px);
+}
+
+.tim .card-body:hover img{
+    transform: translateY(-50px);
+}
+
+.tim .card-body img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.tim .card-body .sosial i{
+    margin: 5px 1px;
+    font-size: 15px;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tim .card-body .sosial i:hover{
+    color: #fac031;
+}
+
+.tim .card-body:hover .sosial i{
+    opacity: 1;
+    transform: translateY(-50px);
+}
+
+/* tim end */
+
+/* footer */
+
+
+
+footer img{
+    width: 100px;
+}
+
+/* footer end */
+

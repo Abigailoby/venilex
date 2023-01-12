@@ -1,0 +1,49 @@
+/* body{
+    width: 100%;
+    height: calc(100%);
+    background: url(../../image/bg2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+} */
+main#main{
+    width:100%;
+    height: calc(100%);
+    background:white;
+}
+#login-right{
+    position: absolute;
+    right:0;
+    width:40%;
+    height: calc(100%);
+    background:white;
+    display: flex;
+    align-items: center;
+}
+#login-left{
+    position: absolute;
+    left:0;
+    width:60%;
+    height: calc(100%);
+    background: url(../../image/about.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#login-right .card{
+    margin: auto
+}
+.logo {
+    margin: auto;
+    font-size: 8rem;
+    background: white;
+    border-radius: 50% 50%;
+    height: 35%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #fac031;
+}
+.logo img{
+    width: 80%;
+    margin: auto
+}

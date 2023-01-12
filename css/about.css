@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #5572fe;
+}
+
+
+.kata {
+    /* float: left; */
+    bottom: 20px;
+    border: 2px inset #fac031;
+    border-radius: 10%;
+}
+
+.kata h4 {
+    color: #fac031;
+    font-size: 250%;
+}
+
+.kata h4 span {
+    color: #5572fe;
+}
+
+.kata h1 {
+    color: #fac031;
+    font-size: 400%;
+}
+
+.kata p {
+    color: black;
+    text-indent: 50px;
+}
+
+.kantinpoto img {
+    float: left;
+    max-width: 700%;
+    border: 5px solid #fac031;
+}
+
+@media screen and (max-width:990px) {
+    .kantinpoto img {
+        max-width: 100%;
+    }
+}
+
+/* About Food Kita end */
+
+/*Team*/
+
+/* .card-body{
+    border: 1px solid rgb(190, 185, 185);
+} */
+
+.card-body img {
+    max-width: 6rem;
+    border-radius: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* tim end */

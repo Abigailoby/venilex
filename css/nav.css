@@ -1,0 +1,142 @@
+
+.navbar{
+    box-shadow: 0 0 10px #000;
+}
+
+.navbar-brand img{
+    /* margin-left: 25px; */
+    width: 125px;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.1);
+}
+
+.nav-link{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-item a{
+    color: #000;
+    transition: 0.1s;
+}
+
+.nav-item a:hover{
+    color: #5572fe;
+}
+
+
+.btncart{
+    background-color: #fac031;
+    border: 2px solid #5572fe;
+}
+
+.btncart:hover{
+    background-color: #dfa106;
+    border: 2px solid #5572fe;
+    color: white;
+    cursor: pointer;
+}
+/* footer .nav .nav-item a:hover{
+    color: #5572fe;
+} */
+
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none
+}
+
+/* .nav-item a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+} */
+
+/* .nav-item a:hover::after{
+    width: 100%;
+} */
+
+.search{
+    width: 65%;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #fac031;
+    border-right: none;
+}
+
+.btn0{
+    height: 45px;
+    outline: none;
+    border: none;
+    background: #5572fe;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 5px;
+}
+
+.btn0:hover{
+    background-color: #4169E1;
+}
+
+
+
+.btnL{
+    height: 40px;
+    outline: none;
+    border:3px solid #fac031;
+    background: #5572fe;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    /* margin-right: 30px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btnS{
+    height: 40px;
+    outline: none;
+    border:3px solid #fac031;
+    background: #5572fe;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btnL:hover{
+    background-color: #4169E1;
+}
+
+.btnS:hover{
+    background-color: #4169E1;
+}
+
+@media screen and (max-width:992px) {
+    .btnL, .btnS{
+        margin-top: 10px;
+    }
+
+    .search, .btn0{
+        margin-top: 10px;
+    }
+
+    .dd{
+        float: left;
+    }
+
+    .pp{
+        float: left;
+    }
+}
+
+/* navbar end */
